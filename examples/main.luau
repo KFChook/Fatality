@@ -1,4 +1,4 @@
-local Fatality = loadstring(game:HttpGet("https://raw.githubusercontent.com/KFChook/Fatality/refs/heads/main/src/source.luau"));
+local Fatality = loadstring(game:HttpGet("https://raw.githubusercontent.com/KFChook/Fatality/refs/heads/main/examples/config-manager.luau"));
 local Notification = Fatality:CreateNotifier();
 
 Fatality:Loader({
