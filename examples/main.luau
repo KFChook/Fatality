@@ -1,19 +1,19 @@
-local Fatality = loadstring(game:HttpGet("https://raw.githubusercontent.com/KFChook/Fatality/refs/heads/main/examples/config-manager.luau"));
+local Fatality = loadstring(game:HttpGet("https://raw.githubusercontent.com/4lpaca-pin/Fatality/refs/heads/main/src/source.luau"))();
 local Notification = Fatality:CreateNotifier();
 
 Fatality:Loader({
-	Name = "Kfc.Hook",
+	Name = "KFC.Hook",
 	Duration = 4
 });
 
 Notification:Notify({
-	Title = "Kfc.Hook",
+	Title = "KFC.Hook",
 	Content = "Hello, "..game.Players.LocalPlayer.DisplayName..' Welcome back!',
 	Icon = "clipboard"
 })
 
 local Window = Fatality.new({
-	Name = "Kfc.Hook",
+	Name = "KFC.Hook",
 	Expire = "never",
 });
 
